@@ -1,0 +1,24 @@
+xKZpE3//w3QnN6GQXaD/WOTOUHY
+
+
+IF7piqtBrepbr0kQg79zjvHgTpE=
+
+
+keytool -exportcert -alias platzerworld -keystore /Users/platzerworld/platzerworld.jks | openssl sha1 -binary | openssl base64
+0G4MlfVfiLFAUSbKRtk1CmBBju0=
+
+
+
+keytool -exportcert -alias androiddebugkey -keystore ~/.android/debug.keystore | openssl sha1 -binary | openssl base64
+IF7piqtBrepbr0kQg79zjvHgTpE=
+IF7piqtBrepbr0kQg79zjvHgTpE=
+
+
+L+WJXo/6pLCinKjiUPXkR++WA5A=
+
+/0PWJBn6eMTUC+0p83wg3a0UDkE=
+
+keytool -exportcert -alias androiddebugkey -keystore /Users/platzerworld/platzerworld.jks | openssl sha1 -binary | openssl base64
+482ct4jDsddhQ+Y24wrUkJr+1IY=
+482ct4jDsddhQ+Y24wrUkJr+1IY=
+

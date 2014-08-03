@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FakeFB</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_id">747214031984432</string>
+    <string name="get_started">To get started, log in using Facebook</string>
+    <string name="settings">Settings</string>
+    <string name="gpl">GPL</string>
+    
+    <string name="action_eating">Pick Meal</string>
+    
+    <string name="select_meal">Select a meal</string>
+    <string name="enter_meal">Enter meal</string>
+    
+     <string name="skip_login">continue as a guest</string>
+    
+    <string name="action_location">Pick Location</string>
+    <string name="action_people">Pick Friends</string>
+    <string name="action_photo">Pick Photo</string>
+    <string name="action_eating_default">Select a meal</string>
+    <string name="action_location_default">Select a place</string>
+    <string name="action_people_default">Select friends</string>
+    <string name="action_photo_default">Take one</string>
+    <string name="action_photo_ready">Ready</string>
+    <string name="action_photo_camera">Take Photo</string>
+    <string name="action_photo_gallery">Choose Existing</string>
+    
+     <string name="progress_dialog_text">Announcing, please wait...</string>
+    
+    <string name="error_dialog_title">Something Went Wrong</string>
+    <string name="error_dialog_button_text">OK</string>
+    <string name="error_dialog_default_text">No response from server.</string>
+    
+    <string name="result_dialog_title">Result</string>
+    <string name="result_dialog_button_text">Thanks!</string>
+    <string name="result_dialog_text_with_id">Posted Open Graph action, id: %1$s</string>
+    <string name="result_dialog_text_default">Post action complete.</string>
+    <string name="result_dialog_text_canceled">Post canceled.</string>
+    
+    <string name="single_user_selected">%1$s</string>
+    <string name="two_users_selected">%1$s and %2$s</string>
+    <string name="multiple_users_selected">%1$s and %2$s others</string>
+    
+    <string name="select_picture">Select Picture</string>
+    
+    <string name="announce">Share</string>
+    <string name="message">Send with Messenger</string>
+    
+    <string name="no_location_error">Could not obtain your current location</string>
+    <string name="error_authentication_retry">An error occurred that requires your attention. %1$s</string>
+    <string name="error_authentication_reopen">An error occurred, please re-login.</string>
+    <string name="error_permission">Please allow us to post on your behalf.</string>
+    <string name="error_server">The server is busy, please retry later.</string>
+    <string name="error_bad_request">An error occurred, please contact the developer with the following message: %1$s</string>
+    <string name="error_unknown">An unknown error occurred, please contact the developer with the following message: %1$s</string>
+    <string name="exception">Exception: %1$s</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    
+    <string name="logout">Logout</string>
+    <string name="login">Login</string>
+    <string name="publish_feed">Publish feed</string>
+    <string name="publish_story">Publish story</string>
+    <string name="invite_all">Invite all</string>
+    <string name="invite_one">Invite one</string>
+    <string name="invite_suggested">Invite suggested</string>
+    <string name="get_my_profile">Get my profile</string>
+    <string name="get_my_profile_with_properties">Get my profile (Properties)</string>
+    <string name="get_friends">Get friends</string>
+    <string name="get_friends_with_properties">Get friends (Properties)</string>
+    <string name="fb_feed_caption">Know who are your best friends</string>
+    <string name="fb_feed_description">With Besties, the exciting new social game, you will be able to find out how truly do you know your friends</string>
+    <string name="fb_feed_link">https://play.google.com/store/apps/details?id=com.besties</string>
+    <string name="fb_feed_name">Besties</string>
+    <string name="fb_feed_message">Who dare to be my opponent? :)</string>
+    <string name="fb_feed_image">http://romkuapps.com/Apps/Socialist/blue_version_2.png</string>
+    <string name="fragment_example_">Fragment example >></string>
+    <string name="publish_photo">Publish photo</string>
+    <string name="get_albums">Get albums</string>
+    <string name="load_more">load more...</string>
+
+    <string-array name="food_types">
+        <item>Cheeseburger</item>
+        <item>Pizza</item>
+        <item>Hotdog</item>
+        <item>Italian</item>
+        <item>French</item>
+        <item>Chinese</item>
+        <item>Thai</item>
+        <item>Indian</item>
+        <item>&lt;Other&gt;</item>
+    </string-array>
+
+    <string-array name="food_og_urls">
+        <item>http://platzerworld.com/fakeme/fakeme-1</item> <!-- Cheeseburger -->
+        <item>http://platzerworld.com/fakeme/fakeme-1</item> <!-- Pizza -->
+        <item>http://platzerworld.com/fakeme/fakeme-1</item> <!-- Hotdog -->
+        <item>http://platzerworld.com/fakeme/fakeme-1</item> <!-- Italian -->
+        <item>http://platzerworld.com/fakeme/fakeme-1</item> <!-- French -->
+        <item>http://platzerworld.com/fakeme/fakeme-1</item> <!-- Chinese -->
+        <item>http://platzerworld.com/fakeme/fakeme-1</item> <!-- Thai -->
+        <item>http://platzerworld.com/fakeme/fakeme-1</item> <!-- Indian -->
+        <item></item>
+    </string-array>
+    
+</resources>
