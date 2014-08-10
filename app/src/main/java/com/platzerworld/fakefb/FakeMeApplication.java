@@ -19,10 +19,13 @@ package com.platzerworld.fakefb;
 import java.util.List;
 
 import android.app.Application;
+import android.util.Log;
 
 import com.facebook.SessionDefaultAudience;
 import com.facebook.model.GraphPlace;
 import com.facebook.model.GraphUser;
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.platzerworld.fakefb.utils.Logger;
 import com.platzerworld.fakefb.utils.SharedObjects;
 import com.platzerworld.fakefb.utils.fb.Permission;
@@ -70,7 +73,13 @@ public class FakeMeApplication extends Application {
 			.build();
 
 		SimpleFacebook.setConfiguration(configuration);
-	}
+
+        int connectionRestult = GooglePlayServicesUtil.isGooglePlayServicesAvailable(this);
+        if(ConnectionResult.SUCCESS == connectionRestult)
+        {
+            Log.d("GPL", "Connection to GooglePlayServices SUCCESS");
+        }
+    }
 
     private List<GraphUser> selectedUsers;
     private GraphPlace selectedPlace;

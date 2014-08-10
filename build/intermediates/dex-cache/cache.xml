@@ -2,22 +2,94 @@
 <pre-dex-items>
 
     <item
-        dex="/Users/platzerworld/Development/androidstudio/Biergarten/app/build/intermediates/pre-dexed/debug/bolts-526ee92e9320995cb2f0c259c15c83fb59906f3c.jar"
-        jar="/Users/platzerworld/Development/androidstudio/Biergarten/app/build/intermediates/exploded-aar/Biergarten/facebook/unspecified/libs/bolts.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="1e5ba33c837d05dcca9dc40a0ab458f8599d7aef"/>
-    <item
         dex="/Users/platzerworld/Development/androidstudio/Biergarten/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-fe930dc68beb1e566675ce71b270d4091c6c249b.jar"
         jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
     <item
+        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/guava-16.0.1-42ba6018e574e190276d066af025590c10df52bb.jar"
+        jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/16.0.1/5fa98cd1a63c99a44dd8d3b77e4762b066a5d0c5/guava-16.0.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="5fa98cd1a63c99a44dd8d3b77e4762b066a5d0c5"/>
+    <item
+        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/gson-2.2.4-842e78e94acc74fcaad3c7978a4b11fbcabdda68.jar"
+        jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568"/>
+    <item
+        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/jackson-annotations-2.1.4-4ffbbbac0adc036d98d8cbc0a06f8261459b33c7.jar"
+        jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.1.4/76b956e45e19e4e081a9c52a68a3c078e3b2cf17/jackson-annotations-2.1.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="76b956e45e19e4e081a9c52a68a3c078e3b2cf17"/>
+    <item
+        dex="/Users/platzerworld/Development/androidstudio/Biergarten/app/build/intermediates/pre-dexed/debug/bolts-526ee92e9320995cb2f0c259c15c83fb59906f3c.jar"
+        jar="/Users/platzerworld/Development/androidstudio/Biergarten/app/build/intermediates/exploded-aar/Biergarten/facebook/unspecified/libs/bolts.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1e5ba33c837d05dcca9dc40a0ab458f8599d7aef"/>
+    <item
+        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/google-http-client-1.17.0-rc-e4371fd13d32aa42ec9f3a1bc62733de8780bde8.jar"
+        jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.17.0-rc/637da6cca16f4a97c4771137bce02e7c291e67af/google-http-client-1.17.0-rc.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="637da6cca16f4a97c4771137bce02e7c291e67af"/>
+    <item
+        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/jackson-core-2.1.4-3081e5f0f84eec504269f30ae406eb871d537565.jar"
+        jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.4/8896e10f8b07918b60c835b45a05507fa213e84/jackson-core-2.1.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="08896e10f8b07918b60c835b45a05507fa213e84"/>
+    <item
         dex="/Users/platzerworld/Development/androidstudio/Biergarten/app/build/intermediates/pre-dexed/debug/classes-073548f305b4ac04f62d6c0955c2c1127fc24c2d.jar"
         jar="/Users/platzerworld/Development/androidstudio/Biergarten/app/build/intermediates/exploded-aar/Biergarten/facebook/unspecified/classes.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="690f7ec52a9f21a9080a8af5f3b860d91ac33c67"/>
+    <item
+        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/bolts-301928d1a38840aa244e20dc2ed0bf602d3cbd5b.jar"
+        jar="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/exploded-aar/FakeMe/facebook/unspecified/libs/bolts.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1e5ba33c837d05dcca9dc40a0ab458f8599d7aef"/>
+    <item
+        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/robotium-solo-5.0.1-7a7865d3d796b24a983184883b1c949754eb2f8f.jar"
+        jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/com.jayway.android.robotium/robotium-solo/5.0.1/d4edea7767f3c98a38d73761709d4bacf20eac5e/robotium-solo-5.0.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d4edea7767f3c98a38d73761709d4bacf20eac5e"/>
+    <item
+        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/google-http-client-gson-1.17.0-rc-59f645bedde8d1bfcbf9a475ab16549ec2f19ac6.jar"
+        jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-gson/1.17.0-rc/3696033c14cc5ce68fe3ac818bade2707df9c2cd/google-http-client-gson-1.17.0-rc.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="3696033c14cc5ce68fe3ac818bade2707df9c2cd"/>
+    <item
+        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/jsr305-1.3.9-840a6fae59eea327aed74e0e86646f5146a7e9d4.jar"
+        jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf"/>
+    <item
+        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/classes-f147ef751b7ff16ae5e01e907895507cb8bdb26f.jar"
+        jar="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.77/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="b6a82434c1eca686607867cd906bcc80ed987837"/>
+    <item
+        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/jackson-databind-2.1.4-78cf8e5dbb9a1397422220f768c0f27efae5a8cf.jar"
+        jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.1.4/61d1e5aaf474462b0c9bfef8aeb6a7205bd56a90/jackson-databind-2.1.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="61d1e5aaf474462b0c9bfef8aeb6a7205bd56a90"/>
+    <item
+        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/classes-f31b90ec13ea391c500bd1e434f072f5427d3d1b.jar"
+        jar="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/exploded-aar/FakeMe/facebook/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e441108f0d7b228c2db4c84c1b24cbaab9bdf080"/>
 
 </pre-dex-items>
