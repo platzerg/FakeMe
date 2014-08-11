@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Twitter4J</string>
+
+    <string name="twitter.oauth.consumerKey">d3cODo8FMA45Har8aL3dg</string>
+    <string name="twitter.oauth.consumerSecret">2Dya3MD04xLAeAbNdutQgTVSvE1IsXrCTikJkYAgaI</string>
+
+    <string name="twitter.oauth.accessToken">57956091-2mUbPkNeqYY869XxTbxaHnF91RefwKWY4UFGdHNy1</string>
+    <string name="twitter.oauth.accessTokenSecret">4dTGma1PYUyutyvZ3strzKVnoInEAruhlCDzHZpyNc</string>
+
+    <string name="debug">true</string>
+    <string name="http.prettyDebug">true</string>
+
+    <string name="title_activity_main">Main</string>
+
+
+</resources>

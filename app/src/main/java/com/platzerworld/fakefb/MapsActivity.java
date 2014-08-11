@@ -2,12 +2,7 @@ package com.platzerworld.fakefb;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentManager;
-import android.view.Menu;
 
-import com.facebook.widget.FriendPickerFragment;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
@@ -40,7 +35,7 @@ public class MapsActivity extends Activity {
                 .title("Kiel")
                 .snippet("Kiel is cool")
                 .icon(BitmapDescriptorFactory
-                        .fromResource(R.drawable.ic_launcher)));
+                        .fromResource(R.drawable.ic_launcher_twitter)));
 
         // Move the camera instantly to hamburg with a zoom of 15.
         map.moveCamera(CameraUpdateFactory.newLatLngZoom(HAMBURG, 15));
