@@ -2,6 +2,12 @@
 <pre-dex-items>
 
     <item
+        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/classes-a528db1d903b6fe3f1510782b29be1978651321b.jar"
+        jar="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1ed7a7a05185651f9af41ad93711cb96b66f331c"/>
+    <item
         dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/jackson-core-2.1.4-3081e5f0f84eec504269f30ae406eb871d537565.jar"
         jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.4/8896e10f8b07918b60c835b45a05507fa213e84/jackson-core-2.1.4.jar"
         jumboMode="false"
@@ -91,12 +97,6 @@
         jumboMode="false"
         revision="20.0.0"
         sha1="637da6cca16f4a97c4771137bce02e7c291e67af"/>
-    <item
-        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/classes-f147ef751b7ff16ae5e01e907895507cb8bdb26f.jar"
-        jar="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.77/classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="b6a82434c1eca686607867cd906bcc80ed987837"/>
     <item
         dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/jackson-databind-2.1.4-78cf8e5dbb9a1397422220f768c0f27efae5a8cf.jar"
         jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.1.4/61d1e5aaf474462b0c9bfef8aeb6a7205bd56a90/jackson-databind-2.1.4.jar"

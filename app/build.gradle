@@ -58,7 +58,7 @@ dependencies {
     compile project(':facebook')
     compile project(':Twitter4J')
 
-    compile 'com.google.android.gms:play-services:5.0.77'
+    compile 'com.google.android.gms:play-services:+'
 
     compile 'com.google.http-client:google-http-client-gson:1.17.0-rc' exclude module: 'httpclient'
 
