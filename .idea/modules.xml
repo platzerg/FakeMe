@@ -4,11 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Biergarten.iml" filepath="$PROJECT_DIR$/Biergarten.iml" />
       <module fileurl="file://$PROJECT_DIR$/FakeMe.iml" filepath="$PROJECT_DIR$/FakeMe.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Twitter4J/Twitter4J.iml" filepath="$PROJECT_DIR$/Twitter4J/Twitter4J.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/facebook/facebook.iml" filepath="$PROJECT_DIR$/facebook/facebook.iml" />
       <module fileurl="file://$PROJECT_DIR$/foursquare/foursquare.iml" filepath="$PROJECT_DIR$/foursquare/foursquare.iml" />
       <module fileurl="file://$PROJECT_DIR$/instagram/instagram.iml" filepath="$PROJECT_DIR$/instagram/instagram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/twitter4J/twitter4J.iml" filepath="$PROJECT_DIR$/twitter4J/twitter4J.iml" />
     </modules>
   </component>
 </project>

@@ -14,7 +14,6 @@ import java.util.List;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.v4.app.FragmentManager;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -31,12 +30,6 @@ import com.facebook.UiLifecycleHelper;
 import com.facebook.model.GraphUser;
 import com.facebook.widget.FacebookDialog;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.MapFragment;
-import com.google.android.gms.maps.model.BitmapDescriptorFactory;
-import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.Marker;
-import com.google.android.gms.maps.model.MarkerOptions;
 import com.platzerworld.fakefb.fragments.BaseFragment;
 import com.platzerworld.fakefb.places.GooglePlaces;
 import com.platzerworld.fakefb.places.jackson.PlaceSearchResponseVO;
@@ -118,6 +111,9 @@ public class FakeMeFragment extends BaseFragment {
 	}
 
     private void showMap(){
+        /*
+        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+        StrictMode.setThreadPolicy(policy);
         GooglePlaces googlePlaces = new GooglePlaces("AIzaSyD16oJOQ6USd_SKMCjHnLX6Oc8CkXiBpiQ");
         try {
             Result res = googlePlaces.getNearbyPlaces(49.240635, 12.673337);
@@ -125,6 +121,10 @@ public class FakeMeFragment extends BaseFragment {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        */
+
+        GetNearbyPlaces placesTask = new GetNearbyPlaces();
+        placesTask.execute("Cham");
     }
 
     private void showPlaces(){
@@ -281,6 +281,26 @@ public class FakeMeFragment extends BaseFragment {
 		super.onDestroy();
 		uiHelper.onDestroy();
 	}
+
+    class GetNearbyPlaces extends AsyncTask<String, Void, Result> {
+        @Override
+        protected Result doInBackground(String... params) {
+            Result res = null;
+            GooglePlaces googlePlaces = new GooglePlaces("AIzaSyD16oJOQ6USd_SKMCjHnLX6Oc8CkXiBpiQ");
+            try {
+                res = googlePlaces.getNearbyPlaces(49.240635, 12.673337);
+                res.getResults();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            return res;
+        }
+
+        @Override
+        protected void onPostExecute(Result s) {
+            Log.d("GPL", s.toString());
+        }
+    }
 
     private class PlacesTask extends AsyncTask<String, Void, String> {
 

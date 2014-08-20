@@ -52,17 +52,23 @@ android {
 
 dependencies {
     compile project(':facebook')
-    compile project(':Twitter4J')
+    compile project(':twitter4J')
     compile project(':instagram')
     compile project(':foursquare')
+
     compile 'com.google.android.gms:play-services:+'
     compile 'com.google.http-client:google-http-client-gson:1.17.0-rc' exclude module: 'httpclient'
+
     compile 'com.fasterxml.jackson.core:jackson-core:2.1.4'
     compile 'com.fasterxml.jackson.core:jackson-databind:2.1.4'
     compile 'com.fasterxml.jackson.core:jackson-annotations:2.1.4'
+
     compile 'com.google.guava:guava:16.0.1'
-    compile 'com.google.code.gson:gson:2.2.4'
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.jayway.android.robotium:robotium-solo:5.0.1'
+    //compile 'com.google.code.gson:gson:2.2.4'
+
+    //compile 'com.jayway.android.robotium:robotium-solo:5.0.1'
+
     androidTestCompile 'com.jayway.android.robotium:robotium-solo:5.0.1'
+
+    compile fileTree(dir: 'libs', include: ['*.jar'])
 }
