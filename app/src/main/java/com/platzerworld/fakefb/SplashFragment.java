@@ -21,6 +21,8 @@ import com.facebook.SessionState;
 import com.facebook.UiLifecycleHelper;
 import com.facebook.widget.FacebookDialog;
 import com.platzerworld.fakefb.fragments.BaseFragment;
+import com.platzerworld.foursquare.PlatzerworldActivity;
+import com.platzerworld.instagram.InstagramActivity;
 
 public class SplashFragment extends BaseFragment {
 	private TextView skipLoginButton;
@@ -53,7 +55,9 @@ public class SplashFragment extends BaseFragment {
 			@Override
 			public void onClick(View view) {
 				Log.d("GPL", "showmeButton");
-				callFB();
+				//callFB();
+                //showInstagram();
+                showFoursquare();
 			}
 		});
 
@@ -64,7 +68,16 @@ public class SplashFragment extends BaseFragment {
 
 		return view;
 	}
-	
+
+    private void showFoursquare(){
+        Intent showFoursquareIntent = new Intent(getActivity().getApplicationContext(), PlatzerworldActivity.class);
+        startActivity(showFoursquareIntent);
+    }
+
+    private void showInstagram(){
+        Intent showInstagramIntent = new Intent(getActivity().getApplicationContext(), InstagramActivity.class);
+        startActivity(showInstagramIntent);
+    }
 
 	private void printHashKey(){
 		// Add code to print out the key hash

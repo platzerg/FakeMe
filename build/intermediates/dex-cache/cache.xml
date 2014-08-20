@@ -8,60 +8,6 @@
         revision="20.0.0"
         sha1="1ed7a7a05185651f9af41ad93711cb96b66f331c"/>
     <item
-        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/twitter4j-stream-4.0.2-7c1ce4bb6201c36e8e405870b2a010d6ac21fe98.jar"
-        jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/org.twitter4j/twitter4j-stream/4.0.2/c8ba9a8013b7e1d01a4ee9066d681a228bbb05/twitter4j-stream-4.0.2.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="00c8ba9a8013b7e1d01a4ee9066d681a228bbb05"/>
-    <item
-        dex="/Users/platzerworld/Development/androidstudio/Biergarten/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-fe930dc68beb1e566675ce71b270d4091c6c249b.jar"
-        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
-    <item
-        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/guava-16.0.1-42ba6018e574e190276d066af025590c10df52bb.jar"
-        jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/16.0.1/5fa98cd1a63c99a44dd8d3b77e4762b066a5d0c5/guava-16.0.1.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="5fa98cd1a63c99a44dd8d3b77e4762b066a5d0c5"/>
-    <item
-        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/gson-2.2.4-842e78e94acc74fcaad3c7978a4b11fbcabdda68.jar"
-        jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="a60a5e993c98c864010053cb901b7eab25306568"/>
-    <item
-        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/jackson-annotations-2.1.4-4ffbbbac0adc036d98d8cbc0a06f8261459b33c7.jar"
-        jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.1.4/76b956e45e19e4e081a9c52a68a3c078e3b2cf17/jackson-annotations-2.1.4.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="76b956e45e19e4e081a9c52a68a3c078e3b2cf17"/>
-    <item
-        dex="/Users/platzerworld/Development/androidstudio/Biergarten/app/build/intermediates/pre-dexed/debug/bolts-526ee92e9320995cb2f0c259c15c83fb59906f3c.jar"
-        jar="/Users/platzerworld/Development/androidstudio/Biergarten/app/build/intermediates/exploded-aar/Biergarten/facebook/unspecified/libs/bolts.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="1e5ba33c837d05dcca9dc40a0ab458f8599d7aef"/>
-    <item
-        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/google-http-client-1.17.0-rc-e4371fd13d32aa42ec9f3a1bc62733de8780bde8.jar"
-        jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.17.0-rc/637da6cca16f4a97c4771137bce02e7c291e67af/google-http-client-1.17.0-rc.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="637da6cca16f4a97c4771137bce02e7c291e67af"/>
-    <item
-        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/twitter4j-media-support-4.0.2-4123efb9027000297e7571ab216ead16dcfd97f7.jar"
-        jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/org.twitter4j/twitter4j-media-support/4.0.2/2d3214a4177bdbb16056a084d5877eee3e17e645/twitter4j-media-support-4.0.2.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="2d3214a4177bdbb16056a084d5877eee3e17e645"/>
-    <item
-        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/classes-d57fc570cbc019b04deb75a160b7ecf51a8c34a7.jar"
-        jar="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/exploded-aar/FakeMe/Twitter4J/unspecified/classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="475a8483168c4c5105f818d93be62d167dacc569"/>
-    <item
         dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/jackson-core-2.1.4-3081e5f0f84eec504269f30ae406eb871d537565.jar"
         jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.4/8896e10f8b07918b60c835b45a05507fa213e84/jackson-core-2.1.4.jar"
         jumboMode="false"
@@ -79,6 +25,24 @@
         jumboMode="false"
         revision="20.0.0"
         sha1="1e5ba33c837d05dcca9dc40a0ab458f8599d7aef"/>
+    <item
+        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/twitter4j-stream-4.0.2-7c1ce4bb6201c36e8e405870b2a010d6ac21fe98.jar"
+        jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/org.twitter4j/twitter4j-stream/4.0.2/c8ba9a8013b7e1d01a4ee9066d681a228bbb05/twitter4j-stream-4.0.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="00c8ba9a8013b7e1d01a4ee9066d681a228bbb05"/>
+    <item
+        dex="/Users/platzerworld/Development/androidstudio/Biergarten/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-fe930dc68beb1e566675ce71b270d4091c6c249b.jar"
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/guava-16.0.1-42ba6018e574e190276d066af025590c10df52bb.jar"
+        jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/16.0.1/5fa98cd1a63c99a44dd8d3b77e4762b066a5d0c5/guava-16.0.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="5fa98cd1a63c99a44dd8d3b77e4762b066a5d0c5"/>
     <item
         dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/robotium-solo-5.0.1-7a7865d3d796b24a983184883b1c949754eb2f8f.jar"
         jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/com.jayway.android.robotium/robotium-solo/5.0.1/d4edea7767f3c98a38d73761709d4bacf20eac5e/robotium-solo-5.0.1.jar"
@@ -98,6 +62,30 @@
         revision="20.0.0"
         sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf"/>
     <item
+        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/classes-7b99f76f4a565b7fe91fe13799c6aedf22a128fc.jar"
+        jar="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/exploded-aar/FakeMe/foursquare/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f4f89e564a540b4309d95143f6f0366532ff05bd"/>
+    <item
+        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/classes-b33b9dc3d0245e9bb38c5bc1fa0550d96bbd3c8b.jar"
+        jar="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/exploded-aar/FakeMe/instagram/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f820a62a7ea9850f10e7057a10860de8b5baaf53"/>
+    <item
+        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/gson-2.2.4-842e78e94acc74fcaad3c7978a4b11fbcabdda68.jar"
+        jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568"/>
+    <item
+        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/foursquare-api-1.0.2-12f044a8b590ebcd19f879b4f7c47a896c181523.jar"
+        jar="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/exploded-aar/FakeMe/foursquare/unspecified/libs/foursquare-api-1.0.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8f8b2bf3004096b8bedbc1d417830a6c828627ea"/>
+    <item
         dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/twitter4j-async-4.0.2-c88a712dc758ca7f4236ea71762935b00499e273.jar"
         jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/org.twitter4j/twitter4j-async/4.0.2/bcd25b8f3e6ec54a947fcde5eca72ab0c9fc1389/twitter4j-async-4.0.2.jar"
         jumboMode="false"
@@ -110,16 +98,46 @@
         revision="20.0.0"
         sha1="6555e7c45f5db0006823731b2ddb536d481e11d1"/>
     <item
+        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/jackson-annotations-2.1.4-4ffbbbac0adc036d98d8cbc0a06f8261459b33c7.jar"
+        jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.1.4/76b956e45e19e4e081a9c52a68a3c078e3b2cf17/jackson-annotations-2.1.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="76b956e45e19e4e081a9c52a68a3c078e3b2cf17"/>
+    <item
+        dex="/Users/platzerworld/Development/androidstudio/Biergarten/app/build/intermediates/pre-dexed/debug/bolts-526ee92e9320995cb2f0c259c15c83fb59906f3c.jar"
+        jar="/Users/platzerworld/Development/androidstudio/Biergarten/app/build/intermediates/exploded-aar/Biergarten/facebook/unspecified/libs/bolts.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1e5ba33c837d05dcca9dc40a0ab458f8599d7aef"/>
+    <item
+        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/google-http-client-1.17.0-rc-e4371fd13d32aa42ec9f3a1bc62733de8780bde8.jar"
+        jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.17.0-rc/637da6cca16f4a97c4771137bce02e7c291e67af/google-http-client-1.17.0-rc.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="637da6cca16f4a97c4771137bce02e7c291e67af"/>
+    <item
         dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/jackson-databind-2.1.4-78cf8e5dbb9a1397422220f768c0f27efae5a8cf.jar"
         jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.1.4/61d1e5aaf474462b0c9bfef8aeb6a7205bd56a90/jackson-databind-2.1.4.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="61d1e5aaf474462b0c9bfef8aeb6a7205bd56a90"/>
     <item
+        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/twitter4j-media-support-4.0.2-4123efb9027000297e7571ab216ead16dcfd97f7.jar"
+        jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/org.twitter4j/twitter4j-media-support/4.0.2/2d3214a4177bdbb16056a084d5877eee3e17e645/twitter4j-media-support-4.0.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="2d3214a4177bdbb16056a084d5877eee3e17e645"/>
+    <item
         dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/classes-f31b90ec13ea391c500bd1e434f072f5427d3d1b.jar"
         jar="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/exploded-aar/FakeMe/facebook/unspecified/classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="d6fc0b15ab624409efddc7bf6234e10752690e24"/>
+        sha1="0034639058306260905f005690d1149e4b8467df"/>
+    <item
+        dex="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/pre-dexed/debug/classes-d57fc570cbc019b04deb75a160b7ecf51a8c34a7.jar"
+        jar="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build/intermediates/exploded-aar/FakeMe/Twitter4J/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="6d1a027aba1904db0519fb0385b3bc2aecf105a3"/>
 
 </pre-dex-items>

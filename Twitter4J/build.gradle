@@ -5,6 +5,7 @@ android {
     buildToolsVersion '20.0.0'
 
     defaultConfig {
+        applicationId "com.platzerworld.twitter"
         minSdkVersion 19
         targetSdkVersion 19
         versionCode 1
