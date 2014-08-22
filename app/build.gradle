@@ -17,7 +17,22 @@ android {
             keyAlias "platzerworld"
             keyPassword "*guenni*"
         }
+
+        flavorproduction {
+            storeFile file("/Users/platzerworld/platzerworld.jks")
+            storePassword "*guenni*"
+            keyAlias "platzerworld"
+            keyPassword "*guenni*"
+        }
+
+        flavortesting {
+            storeFile file("/Users/platzerworld/platzerworld.jks")
+            storePassword "*guenni*"
+            keyAlias "platzerworld"
+            keyPassword "*guenni*"
+        }
     }
+
     buildTypes {
         release {
             runProguard false
@@ -32,20 +47,36 @@ android {
         exclude 'META-INF/LICENSE.txt'
         //exclude 'META-INF/NOTICE.txt'
     }
-    /*
-    productFlavors {
-        platzerworld {
-            applicationId "com.platzerworld.fakefb"
-            versionName "1.0"
-        }
-    }
-    */
+
     android {
         lintOptions {
             abortOnError false
         }
     }
+
     productFlavors {
+        production {
+            applicationId "com.platzerworld.fakefb"
+        }
+
+        testing {
+            applicationId "com.platzerworld.fakefb.testing"
+        }
+    }
+
+    productFlavors {
+        def flavorProduction = signingConfigs.flavorproduction
+        def flavorTesting = signingConfigs.flavortesting
+        production {
+            applicationId "com.platzerworld.fakefb"
+            signingConfig flavorProduction
+        }
+
+
+        testing {
+            applicationId "com.platzerworld.fakefb.testing"
+            signingConfig flavorTesting
+        }
     }
 
     //useOldManifestMerger true
