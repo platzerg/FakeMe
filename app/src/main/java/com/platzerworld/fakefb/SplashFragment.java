@@ -21,6 +21,7 @@ import com.facebook.SessionState;
 import com.facebook.UiLifecycleHelper;
 import com.facebook.widget.FacebookDialog;
 import com.platzerworld.fakefb.fragments.BaseFragment;
+import com.platzerworld.flickr.FlickrActivity;
 import com.platzerworld.foursquare.PlatzerworldActivity;
 import com.platzerworld.instagram.InstagramActivity;
 
@@ -57,7 +58,8 @@ public class SplashFragment extends BaseFragment {
 				Log.d("GPL", "showmeButton");
 				//callFB();
                 //showInstagram();
-                showFoursquare();
+                //showFoursquare();
+                showFlickr();
 			}
 		});
 
@@ -68,6 +70,11 @@ public class SplashFragment extends BaseFragment {
 
 		return view;
 	}
+
+    private void showFlickr(){
+        Intent showFlickrIntent = new Intent(getActivity().getApplicationContext(), FlickrActivity.class);
+        startActivity(showFlickrIntent);
+    }
 
     private void showFoursquare(){
         Intent showFoursquareIntent = new Intent(getActivity().getApplicationContext(), PlatzerworldActivity.class);

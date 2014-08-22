@@ -47,6 +47,8 @@ android {
     }
     productFlavors {
     }
+
+    //useOldManifestMerger true
 }
 
 
@@ -55,6 +57,7 @@ dependencies {
     compile project(':twitter4J')
     compile project(':instagram')
     compile project(':foursquare')
+    compile project(':flickr')
 
     compile 'com.google.android.gms:play-services:+'
     compile 'com.google.http-client:google-http-client-gson:1.17.0-rc' exclude module: 'httpclient'
@@ -63,12 +66,12 @@ dependencies {
     compile 'com.fasterxml.jackson.core:jackson-databind:2.1.4'
     compile 'com.fasterxml.jackson.core:jackson-annotations:2.1.4'
 
-    compile 'com.google.guava:guava:16.0.1'
-    //compile 'com.google.code.gson:gson:2.2.4'
+    //compile 'com.google.guava:guava:16.0.1'
+    compile 'com.google.code.gson:gson:2.2.4'
 
     //compile 'com.jayway.android.robotium:robotium-solo:5.0.1'
 
-    androidTestCompile 'com.jayway.android.robotium:robotium-solo:5.0.1'
+    //androidTestCompile 'com.jayway.android.robotium:robotium-solo:5.0.1'
 
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
