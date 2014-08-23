@@ -3,6 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 20
     buildToolsVersion '20.0.0'
+
     defaultConfig {
         applicationId 'platzerworld.com.biergarten'
         minSdkVersion 19
@@ -10,6 +11,7 @@ android {
         versionCode 1
         versionName '1.0'
     }
+
     signingConfigs {
         release {
             storeFile file("/Users/platzerworld/platzerworld.jks")
@@ -48,10 +50,8 @@ android {
         //exclude 'META-INF/NOTICE.txt'
     }
 
-    android {
-        lintOptions {
-            abortOnError false
-        }
+    lintOptions {
+        abortOnError false
     }
 
     productFlavors {
@@ -89,6 +89,7 @@ dependencies {
     compile project(':instagram')
     compile project(':foursquare')
     compile project(':flickr')
+    compile project(':pinterest')
 
     compile 'com.google.android.gms:play-services:+'
     compile 'com.google.http-client:google-http-client-gson:1.17.0-rc' exclude module: 'httpclient'

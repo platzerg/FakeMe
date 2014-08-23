@@ -115,6 +115,7 @@
     <orderEntry type="module" module-name="twitter4J" exported="" />
     <orderEntry type="module" module-name="facebook" exported="" />
     <orderEntry type="module" module-name="instagram" exported="" />
+    <orderEntry type="module" module-name="pinterest" exported="" />
   </component>
 </module>
 
