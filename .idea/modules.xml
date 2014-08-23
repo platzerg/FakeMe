@@ -9,7 +9,9 @@
       <module fileurl="file://$PROJECT_DIR$/flickr/flickr.iml" filepath="$PROJECT_DIR$/flickr/flickr.iml" />
       <module fileurl="file://$PROJECT_DIR$/foursquare/foursquare.iml" filepath="$PROJECT_DIR$/foursquare/foursquare.iml" />
       <module fileurl="file://$PROJECT_DIR$/instagram/instagram.iml" filepath="$PROJECT_DIR$/instagram/instagram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth2/oauth2.iml" filepath="$PROJECT_DIR$/oauth2/oauth2.iml" />
       <module fileurl="file://$PROJECT_DIR$/pinterest/pinterest.iml" filepath="$PROJECT_DIR$/pinterest/pinterest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tumblr/tumblr.iml" filepath="$PROJECT_DIR$/tumblr/tumblr.iml" />
       <module fileurl="file://$PROJECT_DIR$/twitter4J/twitter4J.iml" filepath="$PROJECT_DIR$/twitter4J/twitter4J.iml" />
     </modules>
   </component>

@@ -1,1 +1,1 @@
-include ':app', ':facebook', ':instagram', ':foursquare', ':flickr', ':pinterest', 'twitter4J'
+include ':app', ':facebook', ':instagram', ':foursquare', ':flickr', ':pinterest', ':tumblr', ':oauth2', 'twitter4J'

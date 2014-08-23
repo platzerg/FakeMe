@@ -90,6 +90,9 @@ dependencies {
     compile project(':foursquare')
     compile project(':flickr')
     compile project(':pinterest')
+    compile project(':tumblr')
+    compile project(':oauth2')
+
 
     compile 'com.google.android.gms:play-services:+'
     compile 'com.google.http-client:google-http-client-gson:1.17.0-rc' exclude module: 'httpclient'
