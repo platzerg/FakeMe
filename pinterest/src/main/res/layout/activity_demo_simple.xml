@@ -11,7 +11,8 @@
         android:id="@+id/source_iv"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/image_height"
-        android:layout_margin="@dimen/global_padding"/>
+        android:layout_margin="@dimen/global_padding"
+        android:src="@drawable/ic_launcher" />
 
     <TextView
         android:id="@+id/desc_tv"

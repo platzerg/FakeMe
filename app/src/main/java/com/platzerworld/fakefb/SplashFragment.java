@@ -24,6 +24,7 @@ import com.platzerworld.fakefb.fragments.BaseFragment;
 import com.platzerworld.flickr.FlickrActivity;
 import com.platzerworld.foursquare.PlatzerworldActivity;
 import com.platzerworld.instagram.InstagramActivity;
+import com.platzerworld.pinterest.DemoMainActivity;
 
 public class SplashFragment extends BaseFragment {
 	private TextView skipLoginButton;
@@ -59,7 +60,8 @@ public class SplashFragment extends BaseFragment {
 				//callFB();
                 //showInstagram();
                 //showFoursquare();
-                showFlickr();
+                //showFlickr();
+                showPinterest();
 			}
 		});
 
@@ -70,6 +72,11 @@ public class SplashFragment extends BaseFragment {
 
 		return view;
 	}
+
+    private void showPinterest(){
+        Intent showPinterestIntent = new Intent(getActivity().getApplicationContext(), DemoMainActivity.class);
+        startActivity(showPinterestIntent);
+    }
 
     private void showFlickr(){
         Intent showFlickrIntent = new Intent(getActivity().getApplicationContext(), FlickrActivity.class);

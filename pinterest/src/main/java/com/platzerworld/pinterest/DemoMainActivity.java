@@ -26,7 +26,7 @@ public class DemoMainActivity extends Activity {
     /**
      * Please generate your Client ID at http://developers.pinterest.com/manage/ , and put it here.
      */
-    public static final String CLIENT_ID = "Please use your own Client ID";
+    public static final String CLIENT_ID = "1436511";
     private ListView mList;
     private ArrayAdapter<String> mAdapter;
 
