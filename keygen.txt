@@ -13,7 +13,6 @@ keytool -exportcert -alias androiddebugkey -keystore ~/.android/debug.keystore |
 IF7piqtBrepbr0kQg79zjvHgTpE=
 IF7piqtBrepbr0kQg79zjvHgTpE=
 
-
 L+WJXo/6pLCinKjiUPXkR++WA5A=
 
 /0PWJBn6eMTUC+0p83wg3a0UDkE=
