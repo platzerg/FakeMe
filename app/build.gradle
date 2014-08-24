@@ -97,6 +97,17 @@ dependencies {
     compile 'com.google.android.gms:play-services:+'
     compile 'com.google.http-client:google-http-client-gson:1.17.0-rc' exclude module: 'httpclient'
 
+    // not used begin
+    compile 'com.google.http-client:google-http-client-android:1.18.0-rc'
+    compile("com.google.oauth-client:google-oauth-client:1.18.0-rc") {
+        exclude module: 'xpp3'
+        exclude module: 'httpclient'
+        exclude module: 'junit'
+        exclude module: 'android'
+    }
+    // not used end
+
+
     compile 'com.fasterxml.jackson.core:jackson-core:2.1.4'
     compile 'com.fasterxml.jackson.core:jackson-databind:2.1.4'
     compile 'com.fasterxml.jackson.core:jackson-annotations:2.1.4'

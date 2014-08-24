@@ -39,8 +39,10 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -102,110 +104,99 @@ public class TumblrExampleActivity extends Activity
 			loggedin = true;
 		}
 		else
-			setAuthURL();
+			//setAuthURL();
+        {
+            TumblrTask task = new TumblrTask();
+            task.execute("");
+        }
+
 	}
 	
 	@Override
 	public void onResume() {
 		super.onResume();
-		
-		if(auth == false)
-		{	
-			if(browser == true)
-				browser2 = true;
-			
-			if(browser == false)
-			{
-				browser = true;
-				newIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(authURL));
-				startActivity(newIntent);
-			}
-			
-			if(browser2 == true)
-			{
-				Uri uri = getIntent().getData();
-				uripath = uri.toString();
-			
-				if (uri != null && uripath.startsWith(OAUTH_CALLBACK_URL))
-				{
-					String verifier = uri.getQueryParameter(OAuth.OAUTH_VERIFIER);
-					try {
-
-						provider.retrieveAccessToken(consumer, verifier);
-				
-						token = consumer.getToken();
-						secret = consumer.getTokenSecret();
-					
-						final Editor editor = pref.edit();
-						editor.putString("TUMBLR_OAUTH_TOKEN", token);
-						editor.putString("TUMBLR_OAUTH_TOKEN_SECRET", secret);
-						editor.commit();
-						
-						auth = true;
-						loggedin = true;
-
-					} catch (OAuthMessageSignerException e) 
-					{
-						e.printStackTrace();
-					} catch (OAuthNotAuthorizedException e) 
-					{
-						e.printStackTrace();
-					} catch (OAuthExpectationFailedException e) 
-					{
-						e.printStackTrace();
-					} catch (OAuthCommunicationException e) 
-					{
-						e.printStackTrace();
-					}
-				}
-			}
-		}
-		else
+        if(auth == true)
         {
-	        setContentView(R.layout.main);
+            setContentView(R.layout.tumblermain);
 
-	        blogname = (EditText) findViewById(R.id.blogname);
-	        posttitle = (EditText)findViewById(R.id.posttitle);
-	        poststring = (EditText)findViewById(R.id.post);
-	        debugStatus = (TextView)findViewById(R.id.debug_status);
-	        post = (Button) findViewById(R.id.btn_post);
-	        loginorout = (Button) findViewById(R.id.loginorout);
-	        
-	        blogname.setText(pref.getString("TUMBLR_BLOG_NAME", ""));
-			
-        	debug = "Access Token: " + token + "\n\nAccess Token Secret: " + secret;
-        	debugStatus.setText(debug);
-        
-        	post.setOnClickListener(new View.OnClickListener() 
-        	{
-            	public void onClick(View v)
-            	{
-            		if (isAuthenticated()) 
-            		{
-            			saveBlogName();
-            			sendPost();
-            		} else 
-            		{
-            			Toast toast = Toast.makeText(getApplicationContext(), "You are not logged into Tumblr", Toast.LENGTH_SHORT);
-            			toast.show();
-            		}
-            	}
-        	});
-        	
-        	loginorout.setOnClickListener(new View.OnClickListener() 
-        	{
-            	public void onClick(View v)
-            	{
-            		LogInOrOut();
-            	}
-        	});
-        	
-        	updateLoginStatus();
+            blogname = (EditText) findViewById(R.id.blogname);
+            posttitle = (EditText)findViewById(R.id.posttitle);
+            poststring = (EditText)findViewById(R.id.post);
+            debugStatus = (TextView)findViewById(R.id.debug_status);
+            post = (Button) findViewById(R.id.btn_post);
+            loginorout = (Button) findViewById(R.id.loginorout);
+
+            blogname.setText(pref.getString("TUMBLR_BLOG_NAME", ""));
+
+            debug = "Access Token: " + token + "\n\nAccess Token Secret: " + secret;
+            debugStatus.setText(debug);
+
+            post.setOnClickListener(new View.OnClickListener()
+            {
+                public void onClick(View v)
+                {
+                    if (isAuthenticated())
+                    {
+                        saveBlogName();
+                        sendPost();
+                    } else
+                    {
+                        Toast toast = Toast.makeText(getApplicationContext(), "You are not logged into Tumblr", Toast.LENGTH_SHORT);
+                        toast.show();
+                    }
+                }
+            });
+
+            loginorout.setOnClickListener(new View.OnClickListener()
+            {
+                public void onClick(View v)
+                {
+                    LogInOrOut();
+                }
+            });
+
+            updateLoginStatus();
         }
-		
-		if(auth == false && browser2 == true)
-			finish();
+        if(auth == false && browser2 == true)
+            finish();
+
+
 	}
+
+    public void doAfterLoginOutAuth(){
+        newIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(authURL));
+        startActivity(newIntent);
+    }
+    public void doAfterAuth(){
+        if(auth == false)
+        {
+
+            if(browser == true)
+                browser2 = true;
+
+            if(browser == false)
+            {
+                browser = true;
+                newIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(authURL));
+                startActivity(newIntent);
+            }
+
+            if(browser2 == true)
+            {
+                Uri uri = getIntent().getData();
+                uripath = uri.toString();
+
+                if (uri != null && uripath.startsWith(OAUTH_CALLBACK_URL))
+                {
+                    GetTumblrAccessTokenTask tumblrAccessTokenTask = new GetTumblrAccessTokenTask(uri);
+                    tumblrAccessTokenTask.execute("");
+                }
+            }
+        }
+
+        if(auth == false && browser2 == true)
+            finish();
+    }
 	
 	//Grabs the authorization URL from OAUTH and sets it to the String authURL member
 	private void setAuthURL()
@@ -238,10 +229,13 @@ public class TumblrExampleActivity extends Activity
 		else
 		{
 			auth = browser = browser2 = false;
-			setAuthURL();
+			//setAuthURL();
 			browser = true;
-			newIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(authURL));
-			startActivity(newIntent);
+
+            TumblrLogInOutTask task = new TumblrLogInOutTask();
+            task.execute("");
+
+
 		}	
 	}
 	
@@ -364,4 +358,126 @@ public class TumblrExampleActivity extends Activity
 		debug += result;
 		debugStatus.setText(debug);
 	}
+
+    class TumblrTask extends AsyncTask<String, Integer, String> {
+
+    public TumblrTask() {
+    }
+
+    @Override
+    protected String doInBackground(String... params) {
+
+        try {
+            setAuthURL();
+        } catch (Exception e) {
+            return null;
+        }
+        return authURL;
+    }
+
+    @Override
+    protected void onPostExecute(String result) {
+        Log.d("GPL", result);
+        doAfterAuth();
+    }
+
+
+}
+
+    class TumblrLogInOutTask extends AsyncTask<String, Integer, String> {
+
+        public TumblrLogInOutTask() {
+        }
+
+        @Override
+        protected String doInBackground(String... params) {
+
+            try {
+                setAuthURL();
+            } catch (Exception e) {
+                return null;
+            }
+            return authURL;
+        }
+
+        @Override
+        protected void onPostExecute(String result) {
+            Log.d("GPL", result);
+            doAfterLoginOutAuth();
+        }
+
+
+    }
+
+    class GetTumblrAccessTokenTask extends AsyncTask<String, Integer, String> {
+        Uri uri;
+        public GetTumblrAccessTokenTask(Uri uri) {
+            this.uri = uri;
+        }
+
+        @Override
+        protected String doInBackground(String... params) {
+
+            String verifier = uri.getQueryParameter(OAuth.OAUTH_VERIFIER);
+            try {
+
+                provider.retrieveAccessToken(consumer, verifier);
+
+                token = consumer.getToken();
+                secret = consumer.getTokenSecret();
+
+                final Editor editor = pref.edit();
+                editor.putString("TUMBLR_OAUTH_TOKEN", token);
+                editor.putString("TUMBLR_OAUTH_TOKEN_SECRET", secret);
+                editor.commit();
+
+                auth = true;
+                loggedin = true;
+
+            } catch (OAuthMessageSignerException e)
+            {
+                e.printStackTrace();
+            } catch (OAuthNotAuthorizedException e)
+            {
+                e.printStackTrace();
+            } catch (OAuthExpectationFailedException e)
+            {
+                e.printStackTrace();
+            } catch (OAuthCommunicationException e)
+            {
+                e.printStackTrace();
+            }
+            return token;
+        }
+
+        @Override
+        protected void onPostExecute(String result) {
+            Log.d("GPL", result);
+        }
+    }
+
+    class TumblrLogoutTask extends AsyncTask<String, Integer, String> {
+
+        public TumblrLogoutTask() {
+        }
+
+        @Override
+        protected String doInBackground(String... params) {
+
+            try {
+                setAuthURL();
+            } catch (Exception e) {
+                return null;
+            }
+            return authURL;
+        }
+
+        @Override
+        protected void onPostExecute(String result) {
+            Log.d("GPL", result);
+            doAfterAuth();
+        }
+
+
+    }
 }
