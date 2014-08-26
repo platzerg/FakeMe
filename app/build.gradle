@@ -57,7 +57,7 @@ android {
         checkAllWarnings true
         lintConfig file("lint.xml")
         // file to write report to (if not specified, defaults to lint-results.xml)
-        xmlOutput file("lint-report.xml")
+        xmlOutput file("lint-results.xml")
     }
 
     productFlavors {
