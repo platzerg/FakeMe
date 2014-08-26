@@ -51,7 +51,13 @@ android {
     }
 
     lintOptions {
+        // if true, stop the gradle build if errors are found
         abortOnError false
+        // if true, check all issues, including those that are off by default
+        checkAllWarnings true
+        lintConfig file("lint.xml")
+        // file to write report to (if not specified, defaults to lint-results.xml)
+        xmlOutput file("lint-report.xml")
     }
 
     productFlavors {
