@@ -16,7 +16,6 @@ android {
         targetSdkVersion 19
         versionCode 1
         versionName '1.0'
-        testPackageName 'platzerworld.com.biergarten'
         testInstrumentationRunner 'com.google.android.apps.common.testing.testrunner.GoogleInstrumentationTestRunner'
         testApplicationId 'platzerworld.com.biergarten'
     }
