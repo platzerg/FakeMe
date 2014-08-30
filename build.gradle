@@ -3,8 +3,8 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.12.+'
         //https://github.com/robolectric/robolectric-gradle-plugin
+        classpath 'com.android.tools.build:gradle:0.12.+'
         classpath 'org.robolectric:robolectric-gradle-plugin:0.12.+'
     }
 }
