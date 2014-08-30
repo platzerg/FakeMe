@@ -5,6 +5,8 @@ apply plugin: 'robolectric'
 apply plugin: 'sonar'
 apply plugin: "sonar-runner"
 
+apply plugin: 'signing'
+
 
 android {
     compileSdkVersion 19
