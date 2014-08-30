@@ -147,7 +147,7 @@ To fix this issue, set the `targetSdkVersion` to the highest available value. Th
         errorLine2="        ~~~~~~~~~~~~~~~~~~~">
         <location
             file="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build.gradle"
-            line="31"
+            line="18"
             column="9"/>
     </issue>
 
@@ -177,27 +177,11 @@ To fix this issue, set the `targetSdkVersion` to the highest available value. Th
         priority="4"
         summary="Looks for dependencies using a dynamic version rather than a fixed version"
         explanation="Using `+` in dependencies lets you automatically pick up the latest available version rather than a specific, named version. However, this is not recommended; your builds are not repeatable; you may have tested with a slightly different version than what the build server used. (Using a dynamic version as the major version number is more problematic than using it in the minor version position.)"
-        errorLine1="        classpath &apos;com.android.tools.build:gradle:0.12.+&apos;"
-        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build.gradle"
-            line="6"
-            column="9"/>
-    </issue>
-
-    <issue
-        id="GradleDynamicVersion"
-        severity="Warning"
-        message="Avoid using + in version numbers; can lead to unpredictable and  unrepeatable builds"
-        category="Correctness"
-        priority="4"
-        summary="Looks for dependencies using a dynamic version rather than a fixed version"
-        explanation="Using `+` in dependencies lets you automatically pick up the latest available version rather than a specific, named version. However, this is not recommended; your builds are not repeatable; you may have tested with a slightly different version than what the build server used. (Using a dynamic version as the major version number is more problematic than using it in the minor version position.)"
         errorLine1="    compile &apos;com.google.android.gms:play-services:+&apos;"
         errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build.gradle"
-            line="129"
+            line="121"
             column="5"/>
     </issue>
 
@@ -213,7 +197,7 @@ To fix this issue, set the `targetSdkVersion` to the highest available value. Th
         errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build.gradle"
-            line="181"
+            line="172"
             column="5"/>
     </issue>
 
@@ -294,7 +278,7 @@ This is similar to the `GradleDependency` check, which checks for newer versions
         errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build.gradle"
-            line="142"
+            line="134"
             column="5"/>
     </issue>
 
@@ -311,7 +295,7 @@ This is similar to the `GradleDependency` check, which checks for newer versions
         errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build.gradle"
-            line="143"
+            line="135"
             column="5"/>
     </issue>
 
@@ -328,7 +312,7 @@ This is similar to the `GradleDependency` check, which checks for newer versions
         errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build.gradle"
-            line="144"
+            line="136"
             column="5"/>
     </issue>
 
@@ -345,7 +329,7 @@ This is similar to the `GradleDependency` check, which checks for newer versions
         errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build.gradle"
-            line="156"
+            line="147"
             column="5"/>
     </issue>
 
@@ -362,7 +346,7 @@ This is similar to the `GradleDependency` check, which checks for newer versions
         errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build.gradle"
-            line="157"
+            line="148"
             column="5"/>
     </issue>
 
@@ -379,7 +363,7 @@ This is similar to the `GradleDependency` check, which checks for newer versions
         errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build.gradle"
-            line="158"
+            line="149"
             column="5"/>
     </issue>
 
@@ -396,7 +380,7 @@ This is similar to the `GradleDependency` check, which checks for newer versions
         errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build.gradle"
-            line="159"
+            line="150"
             column="5"/>
     </issue>
 
@@ -413,7 +397,7 @@ This is similar to the `GradleDependency` check, which checks for newer versions
         errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="/Users/platzerworld/Development/Projects/Android/FakeMe/app/build.gradle"
-            line="160"
+            line="151"
             column="5"/>
     </issue>
 
