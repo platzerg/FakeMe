@@ -45,4 +45,4 @@ before_script:
   - adb shell input keyevent 82 &
 script:
     #- TERM=dumb ./gradlew build
-    - TERM=dumb ./gradlew connectedCheck
+    - TERM=dumb ./gradlew connectedCheck --info
