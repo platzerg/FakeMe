@@ -150,6 +150,5 @@ dependencies {
         exclude module: 'wagon-provider-api'
     }
     androidTestCompile 'com.squareup:fest-android:1.0.+'
-    //compile "org.codehaus.sonar.runner:sonar-runner-api:2.4"
 }
 
