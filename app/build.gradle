@@ -178,14 +178,12 @@ robolectric {
     exclude '**/espresso/**/*.class'
 }
 
-
 apply plugin: 'idea'
 idea {
     module {
         testOutputDir = file('build/test-classes/debug')
     }
 }
-
 
 sonar {
     server {
